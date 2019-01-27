@@ -41,13 +41,44 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   background-position: 0 0, 30px 30px;
 }
 
+/*--------------------- START of section for the buttons and the animation ---------------------*/
 .landingButtons {
   background-color: rgba(0,0,0,0);
-  border: 1px solid white;
-  border-radius: 5px;
+  border: 0px;
   color:white;
   z-index: 1;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*--------------------- END of section for the buttons and the animation ---------------------*/
 
 .leftmostButtonPosition {
   position: absolute;
