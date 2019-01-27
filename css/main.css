@@ -60,14 +60,14 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   margin: 5px;
 }
 
-.button span {
+.landingButtons span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+.landingButtons span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -76,11 +76,11 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   transition: 0.5s;
 }
 
-.button:hover span {
+.landingButtons:hover span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+.landingButtons:hover span:after {
   opacity: 1;
   right: 0;
 }
