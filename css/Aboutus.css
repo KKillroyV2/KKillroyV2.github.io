@@ -149,3 +149,12 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   font-size: 18pt;
   font-family: BebasNeue;
 }
+
+.itemImageDescription {
+    position: relative;
+    bottom: 200px;
+    left: 220px;
+    font-family: Coolvetica;
+    width: calc(100% - 220px);
+    display: inline-block;
+}
