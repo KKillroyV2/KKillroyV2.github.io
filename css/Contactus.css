@@ -1,8 +1,11 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
-
 @font-face {
   font-family: Brilliantte;
   src: url(../assets/Brilliantte.woff);
+}
+
+@font-face {
+  font-family: Coolvetica;
+  src: url(../assets/coolvetica.woff);
 }
 
 @font-face {
@@ -19,9 +22,11 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 .body {
     position: absolute;
     left: 0px;
-    top: 175px;
+    top: 150px;
     width: 100%;
-    background-image: url("../assets/contactus.jpg");
+    height: calc(100% - 150px);
+    background-size: cover;
+    background-position: center;
 }
 
 .welcomeTitle {
@@ -112,4 +117,42 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   right: 17%;
   top: 110px;
   transform: translate(50%,0);
+}
+
+.item {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.itemTitle {
+  font-family: BebasNeue;
+  font-size: 20pt;
+}
+
+.itemDescription {
+  font-family: Coolvetica;
+}
+
+.itemImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.itemImageTitle {
+  position: relative;
+  bottom: 200px;
+  left: 220px;
+  font-size: 18pt;
+  font-family: BebasNeue;
+}
+
+.itemImageDescription {
+    position: relative;
+    bottom: 200px;
+    left: 220px;
+    font-family: Coolvetica;
+    width: calc(100% - 220px);
+    display: inline-block;
 }
