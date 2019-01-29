@@ -128,16 +128,24 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 
 .itemTitle {
-    font-family: BebasNeue;
-    font-size: 20pt;
+  font-family: BebasNeue;
+  font-size: 20pt;
 }
 
 .itemDescription {
-    font-family: Coolvetica;
+  font-family: Coolvetica;
 }
 
 .itemImage {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.itemImageTitle {
+  position: relative;
+  bottom: 200px;
+  left: 220px;
+  font-size: 18pt;
+  font-family: BebasNeue;
 }
