@@ -116,3 +116,9 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   top: 110px;
   transform: translate(50%,0);
 }
+
+.item {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
