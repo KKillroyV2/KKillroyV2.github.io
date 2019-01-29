@@ -6,6 +6,11 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 
 @font-face {
+  font-family: Coolvetica;
+  src: url(../assets/coolvetica rg.woff);
+}
+
+@font-face {
   font-family: BebasNeue;
   src: url(../assets/BebasNeue-Regular.woff);
 }
