@@ -19,9 +19,12 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 .body {
     position: absolute;
     left: 0px;
-    top: 175px;
+    top: 150px;
     width: 100%;
-    background-image: url("../assets/aboutus.png");
+    height: calc(100% - 150px);
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/aboutus.png);
 }
 
 .welcomeTitle {
