@@ -30,7 +30,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   bottom: 50%;
   transform: translate(-50%,50%);
   min-width: 100%;
-  min-height: 110%;
+  min-height: 125%;
   z-index: -100;
 }
 
