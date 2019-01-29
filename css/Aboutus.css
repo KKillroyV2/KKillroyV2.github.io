@@ -131,3 +131,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     font-family: BebasNeue;
     font-size: 20pt;
 }
+
+.itemDescription {
+    font-family: Coolvetica;
+}
